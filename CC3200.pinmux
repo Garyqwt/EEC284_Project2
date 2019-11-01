@@ -1,0 +1,824 @@
+{
+	"boardId": "undefined",
+	"deviceId": "CC3200",
+	"partId": "ID_500",
+	"packageId": "ID_0",
+	"deviceRequirements": {
+		"used": true,
+		"solution": {
+			"nameDecoratorText": "",
+			"assignedToName": "",
+			"errorText": "",
+			"warningText": "",
+			"errorDetailsText": [],
+			"warningDetailsText": [],
+			"errorCount": 0,
+			"warningCount": 0,
+			"nonSolverErrorCount": 0,
+			"gpioPinsUsed": 6,
+			"gpioPinsTotal": 27
+		},
+		"nonSolverSolution": {
+			"nameDecoratorText": "",
+			"assignedToName": "",
+			"errorText": "",
+			"warningText": "",
+			"errorDetailsText": [],
+			"warningDetailsText": [],
+			"errorCount": 0,
+			"warningCount": 0,
+			"nonSolverErrorCount": 0
+		},
+		"version": "2.0.1",
+		"devicePinMap": {
+			"5": {
+				"nameDecoratorText": "5",
+				"assignedToName": "GSPI_CLK",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "MySPI1",
+				"requirementId": "MySPI1",
+				"interfacePin": "CLK"
+			},
+			"6": {
+				"nameDecoratorText": "6",
+				"assignedToName": "GSPI_MISO",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "MySPI1",
+				"requirementId": "MySPI1",
+				"interfacePin": "MISO"
+			},
+			"7": {
+				"nameDecoratorText": "7",
+				"assignedToName": "GSPI_MOSI",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "MySPI1",
+				"requirementId": "MySPI1",
+				"interfacePin": "MOSI"
+			},
+			"8": {
+				"nameDecoratorText": "8",
+				"assignedToName": "GSPI_CS",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "MySPI1",
+				"requirementId": "MySPI1",
+				"interfacePin": "CS"
+			},
+			"55": {
+				"nameDecoratorText": "55",
+				"assignedToName": "UART0_TX",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "MyUART1",
+				"requirementId": "MyUART1",
+				"interfacePin": "TX"
+			},
+			"57": {
+				"nameDecoratorText": "57",
+				"assignedToName": "UART0_RX",
+				"errorText": "",
+				"warningText": "",
+				"errorDetailsText": [],
+				"warningDetailsText": [],
+				"errorCount": 0,
+				"warningCount": 0,
+				"nonSolverErrorCount": 0,
+				"requirementName": "MyUART1",
+				"requirementId": "MyUART1",
+				"interfacePin": "RX"
+			}
+		},
+		"powerDomainSettings": {},
+		"powerDomainSettingsEnabled": false,
+		"isLoad": true,
+		"isBoard": false,
+		"groupRequirements": {
+			"ADC": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0,
+					"gpioPinsUsed": 4
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 2,
+				"requirements": [],
+				"name": "ADC",
+				"id": "ADC"
+			},
+			"Camera": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "Camera",
+				"id": "Camera"
+			},
+			"GPIO": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "GPIO",
+				"id": "GPIO"
+			},
+			"I2C": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "I2C",
+				"id": "I2C"
+			},
+			"McASP": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "McASP",
+				"id": "McASP"
+			},
+			"SDHost": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "SDHost",
+				"id": "SDHost"
+			},
+			"SPI": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0,
+					"gpioPinsUsed": 4
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 2,
+				"requirements": [
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0,
+							"gpioPinsUsed": 4
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"selectedInstance": "Any",
+						"selectedVoltage": "Any",
+						"selectedUseCase": "SPI",
+						"pinRequirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "GSPI_CS",
+									"assignedToName": "8",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "8",
+								"removable": false,
+								"type": "Single",
+								"name": "CS",
+								"interfacePinName": "CS",
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "GSPI_CLK",
+									"assignedToName": "5",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "Any",
+								"removable": false,
+								"type": "Single",
+								"name": "CLK",
+								"interfacePinName": "CLK",
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "GSPI_MISO",
+									"assignedToName": "6",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "Any",
+								"removable": false,
+								"type": "Single",
+								"name": "MISO",
+								"interfacePinName": "MISO",
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "GSPI_MOSI",
+									"assignedToName": "7",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "Any",
+								"removable": false,
+								"type": "Single",
+								"name": "MOSI",
+								"interfacePinName": "MOSI",
+								"configurables": {}
+							}
+						],
+						"peripheralSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "SPI0",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"voltageSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"isNameValid": true,
+						"assignedToName": "",
+						"id": "MySPI1",
+						"name": "MySPI1",
+						"interfaceName": "SPI",
+						"pinConfigurablesHeader": {},
+						"configurables": {}
+					}
+				],
+				"name": "SPI",
+				"id": "SPI"
+			},
+			"TimerCP": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "TimerCP",
+				"id": "TimerCP"
+			},
+			"TimerPWM": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "TimerPWM",
+				"id": "TimerPWM"
+			},
+			"UART": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0,
+					"gpioPinsUsed": 2
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 2,
+				"requirements": [
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0,
+							"gpioPinsUsed": 2
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"selectedInstance": "Any",
+						"selectedVoltage": "Any",
+						"selectedUseCase": "UART",
+						"pinRequirements": [
+							{
+								"used": false,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "Any",
+								"removable": false,
+								"type": "Single",
+								"name": "RTS",
+								"interfacePinName": "RTS",
+								"configurables": {}
+							},
+							{
+								"used": false,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "Any",
+								"removable": false,
+								"type": "Single",
+								"name": "CTS",
+								"interfacePinName": "CTS",
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "UART0_TX",
+									"assignedToName": "55",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "Any",
+								"removable": false,
+								"type": "Single",
+								"name": "TX",
+								"interfacePinName": "TX",
+								"configurables": {}
+							},
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "UART0_RX",
+									"assignedToName": "57",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"assignedToName": "Any",
+								"removable": false,
+								"type": "Single",
+								"name": "RX",
+								"interfacePinName": "RX",
+								"configurables": {}
+							}
+						],
+						"peripheralSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "UART0",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"voltageSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"isNameValid": true,
+						"assignedToName": "",
+						"id": "MyUART1",
+						"name": "MyUART1",
+						"interfaceName": "UART",
+						"pinConfigurablesHeader": {},
+						"configurables": {}
+					}
+				],
+				"name": "UART",
+				"id": "UART"
+			},
+			"WATCHDOG": {
+				"used": true,
+				"solution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"nonSolverSolution": {
+					"nameDecoratorText": "",
+					"assignedToName": "",
+					"errorText": "",
+					"warningText": "",
+					"errorDetailsText": [],
+					"warningDetailsText": [],
+					"errorCount": 0,
+					"warningCount": 0,
+					"nonSolverErrorCount": 0
+				},
+				"requirementsNameIndex": 1,
+				"requirements": [],
+				"name": "WATCHDOG",
+				"id": "WATCHDOG"
+			}
+		}
+	},
+	"versions": {
+		"data": "2019091104",
+		"timestamp": "2019091104",
+		"tool": "4.0.1537 ",
+		"templates": "2019091104"
+	}
+}
